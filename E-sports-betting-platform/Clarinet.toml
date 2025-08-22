@@ -1,0 +1,19 @@
+[project]
+name = 'E-sports-betting-platform'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.E-sports-betting-platform]
+path = 'contracts/E-sports-betting-platform.clar'
+clarity_version = 3
+epoch = 3.1
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
